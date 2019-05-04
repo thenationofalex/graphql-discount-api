@@ -1,0 +1,46 @@
+{
+  "name": "@thenationofalex/discount-api",
+  "version": "0.0.1",
+  "description": "Discount Api",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/thenationofalex"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "dev": "NODE_ENV=dev nodemon -e ts -x ts-node src/index.ts",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "start": "NODE_ENV=production ts-node src/index.ts"
+  },
+  "engines": {
+    "node": "8.10"
+  },
+  "author": "BestIndustries",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "apollo-server-hapi": "^2.1.0",
+    "dotenv": "^7.0.0",
+    "graphql": "^14.0.2",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-tag": "^2.10.0",
+    "graphql-tools": "^4.0.1",
+    "hapi": "^17.6.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.4",
+    "ts-node": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/hapi": "^17.6.2",
+    "@types/jest": "^23.3.9",
+    "@types/mongoose": "^5.2.19",
+    "@types/node": "^10.12.1",
+    "@types/node-fetch": "^2.1.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.18.5",
+    "standard": "^12.0.1",
+    "tslint": "5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.1.5"
+  }
+}
