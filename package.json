@@ -18,7 +18,7 @@
   "author": "BestIndustries",
   "license": "UNLICENSED",
   "dependencies": {
-    "apollo-server-hapi": "^2.1.0",
+    "apollo-server-hapi": "^2.14.2",
     "dotenv": "^7.0.0",
     "graphql": "^14.0.2",
     "graphql-depth-limit": "^1.1.0",
